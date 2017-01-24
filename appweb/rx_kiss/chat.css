@@ -1,0 +1,166 @@
+td.rx_chat_public
+{
+	width:100%;
+	border-bottom:1px solid silver;
+	vertical-align:top
+}
+td.rx_chat_public a
+{
+	text-decoration:none;
+}
+td.rx_chat_public>div:first-child
+{
+	height:380px;
+	padding:8px;
+	overflow-y:scroll;
+}
+td.rx_chat_public>div:first-child>pre
+{
+	line-height:21px;
+}
+
+td.rx_chat_public>div:first-child>pre>span:last-child
+{
+	margin-left:16px;
+}
+
+table.rx_chat_editor
+{
+	width:100%;
+	border-bottom:1px solid silver;
+}
+table.rx_chat_editor>tbody>tr>td:first-child
+{
+	background:powderblue;
+	padding:4px;
+	border:1px solid silver;
+	border-width:1px 0;
+}
+table.rx_chat_editor>tbody>tr>td:first-child>*
+{
+	margin:0 4px;
+}
+table.rx_chat_editor>tbody>tr>td:first-child>select
+{
+	padding:3px 8px;
+}
+table.rx_chat_editor>tbody>tr>td:first-child>button
+{
+	padding:4px 8px;
+}
+table.rx_chat_editor>tfoot>tr>td:first-child
+{
+	width:100%;
+	height:134px;
+	display:inline-block;
+	overflow:hidden;
+}
+table.rx_chat_editor>tfoot>tr>td:first-child>textarea
+{
+	width:100%;
+	height:120px;
+	line-height:20px;
+	border-radius:0;
+	border:0;
+	box-shadow:none;
+	overflow-y:auto;
+}
+table.rx_chat_editor>tfoot>tr>td:last-child
+{
+	width:140px;
+	border-left:1px solid silver;
+}
+table.rx_chat_editor>tfoot>tr>td:last-child>pre
+{
+	background:powderblue;
+	margin:1px;
+	height:92px;
+	padding-top:40px;
+	line-height:20px;
+	text-align:center;
+	font-size:18px;
+	cursor:pointer;
+}
+table.rx_chat_editor>tfoot>tr>td:last-child>pre:hover
+{
+	background:paleturquoise;
+}
+
+div#wa_htt_id0
+{
+	width:438px;
+	height:126px;
+	display:none;
+	position:absolute;
+	background-color:white;
+	box-shadow:0 0 6px rgba( 0, 0, 0, 0.4 );
+	border:1px solid black;
+	overflow-y:scroll;
+}
+div#wa_htt_id0>img
+{
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	border:1px solid black;
+	margin-bottom:-3px;
+}
+div#wa_htt_id0>img:hover
+{
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	border:1px solid blue;
+}
+
+
+td.rx_chat_staff_lists
+{
+	width:320px;
+	height:550px;
+	display:inline-block;
+	padding:8px;
+	border-left:1px solid silver;
+	border-bottom:1px solid silver;
+	vertical-align:top;
+	overflow-y:scroll;
+}
+td.rx_chat_staff_lists>div
+{
+	padding:6px;
+	margin-bottom:6px;
+	background:powderblue;
+	cursor:pointer;
+}
+td.rx_chat_staff_lists>div:hover
+{
+	background:paleturquoise;
+}
+td.rx_chat_staff_lists>ul
+{
+	margin-bottom:8px;
+}
+td.rx_chat_staff_lists span
+{
+	float:right;
+}
+td.rx_chat_staff_lists>ul>li
+{
+	margin:0 4px;
+	padding:4px;
+	cursor:pointer;
+	color:silver;
+}
+td.rx_chat_staff_lists>ul>li:hover
+{
+	background:antiquewhite;
+	color:black;
+}
+td.rx_chat_staff_lists>ul>li.online
+{
+	color:royalblue;
+}
+td.rx_chat_staff_lists>ul>li.online:hover
+{
+	color:darkblue;
+}

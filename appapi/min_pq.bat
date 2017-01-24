@@ -1,0 +1,1 @@
+"%~dp0\nodejs\uglifyjs" "%~dp0\..\js\pq.js" -m -o "%~dp0\..\js\pq.min.js"

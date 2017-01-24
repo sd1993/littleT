@@ -1,0 +1,283 @@
+/*wa_mysql_connect*/
+form.wa_mysql_connect
+{
+	width:420px;
+	margin:42px auto;
+	padding:42px 0;
+	text-align:center;
+	box-shadow:0 0 21px rgba( 0, 0, 0, 0.6 );
+}
+form.wa_mysql_connect>div
+{
+	font-size:21px;
+	line-height:42px;
+}
+form.wa_mysql_connect>input
+{
+	width:210px;
+	margin:21px auto;
+	display:block;
+}
+form.wa_mysql_connect>span
+{
+	width:400px;
+	height:21px;
+	line-height:21px;
+	margin-bottom:21px;
+	color:maroon;
+	display:inline-block;
+	overflow:hidden;
+}
+/*wa_mysql_list*/
+td.wa_mysql_list
+{
+	vertical-align:top;
+}
+td.wa_mysql_list>nav
+{
+	margin:12px 10px;
+	padding:1px;
+	box-shadow:0 0 8px rgba( 0, 0, 0, 0.6 );
+}
+td.wa_mysql_list>nav a
+{
+	display:block;
+}
+td.wa_mysql_list>nav>a
+{
+	background:linear-gradient( #6eb4f1, #5891f0 );
+	padding:6px;
+	color:white;
+	text-decoration:none;
+	text-shadow:1px 1px 1px rgba( 0, 0, 0, 0.4 );
+}
+td.wa_mysql_list>nav>a:hover
+{
+	background:#6eb4f1;
+}
+td.wa_mysql_list>nav>a:active
+{
+	background:#5891f0;
+}
+td.wa_mysql_list>nav>nav
+{
+	margin-top:1px;
+}
+td.wa_mysql_list>nav>nav>a
+{
+	padding:4px 8px;
+}
+td.wa_mysql_list>nav>nav>a:hover
+{
+	background:rgba( 127, 191, 255, 0.3 );
+}
+td.wa_mysql_list>nav>nav>a:active
+{
+	background:rgba( 31, 159, 255, 0.3 );
+}
+td.wa_mysql_list>nav>nav>a>font
+{
+	color:silver;
+	padding-left:4px;
+}
+/*wa_mysql_info*/
+td.wa_mysql_info
+{
+	vertical-align:top;
+}
+td.wa_mysql_info>table
+{
+	margin:12px 0;
+}
+/*wa_mysql_action*/
+td.wa_mysql_action>*
+{
+	margin-right:8px;
+}
+td.wa_mysql_action>select
+{
+	padding:3px 8px;
+}
+td.wa_mysql_action>button,
+td.wa_mysql_action>input[type=text],
+td.wa_mysql_action>input[type=password],
+td.wa_mysql_action>textarea[name]
+{
+	padding:4px 8px;
+}
+/*
+wa_mysql_table_action
+wa_mysql_field_editor
+wa_mysql_index_editor
+wa_mysql_data_table
+*/
+tbody.wa_mysql_table_action>tr>td:nth-child(1),
+tbody.wa_mysql_table_action>tr>td:nth-child(2),
+tbody.wa_mysql_field_editor>tr>td:nth-child(2),
+tbody.wa_mysql_field_editor>tr>td:nth-child(3),
+tbody.wa_mysql_field_editor>tr>td:nth-child(4),
+tbody.wa_mysql_field_editor>tr>td:nth-child(5),
+tbody.wa_mysql_field_editor>tr>td:nth-child(6),
+tbody.wa_mysql_field_editor>tr>td:nth-child(7),
+tbody.wa_mysql_field_editor>tr>td:nth-child(8),
+tbody.wa_mysql_field_editor>tr>td:nth-child(9),
+tbody.wa_mysql_index_editor>tr>td:first-child,
+tbody.wa_mysql_data_table>tr>td
+{
+	cursor:pointer;
+}
+tbody.wa_mysql_table_action>tr>td:nth-child(1):hover,
+tbody.wa_mysql_table_action>tr>td:nth-child(1):active,
+tbody.wa_mysql_table_action>tr>td:nth-child(2):hover,
+tbody.wa_mysql_table_action>tr>td:nth-child(2):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(2):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(2):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(3):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(3):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(4):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(4):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(5):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(5):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(6):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(6):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(7):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(7):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(8):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(8):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(9):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(9):active,
+tbody.wa_mysql_index_editor>tr>td:first-child:hover,
+tbody.wa_mysql_index_editor>tr>td:first-child:active,
+tbody.wa_mysql_data_table>tr>td:hover,
+tbody.wa_mysql_data_table>tr>td:active
+{
+	color:white;
+}
+tbody.wa_mysql_table_action>tr>td:nth-child(1),
+tbody.wa_mysql_field_editor>tr>td:nth-child(2),
+tbody.wa_mysql_field_editor>tr>td:nth-child(3),
+tbody.wa_mysql_field_editor>tr>td:nth-child(4),
+tbody.wa_mysql_field_editor>tr>td:nth-child(5),
+tbody.wa_mysql_field_editor>tr>td:nth-child(6),
+tbody.wa_mysql_index_editor>tr>td:first-child,
+tbody.wa_mysql_data_table>tr>td:nth-child(1),
+tbody.wa_mysql_data_table>tr>td:nth-child(2)
+{
+	width:18px;
+	text-align:center;
+	font-family:GlyphiconsHalflings;
+}
+tbody.wa_mysql_field_editor>tr>td:first-child>input
+{
+	vertical-align:middle;
+}
+tbody.wa_mysql_table_action>tr>td:nth-child(1):before,
+tbody.wa_mysql_field_editor>tr>td:nth-child(2):before,
+tbody.wa_mysql_index_editor>tr>td:first-child:before,
+tbody.wa_mysql_data_table>tr>td:nth-child(1):before
+{
+	content:"\e014";
+}
+tbody.wa_mysql_table_action>tr>td:nth-child(1):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(2):hover,
+tbody.wa_mysql_index_editor>tr>td:first-child:hover,
+tbody.wa_mysql_data_table>tr>td:nth-child(1):hover
+{
+	background:rgba( 255, 0, 0, 0.5 );
+}
+tbody.wa_mysql_table_action>tr>td:nth-child(1):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(2):active,
+tbody.wa_mysql_index_editor>tr>td:first-child:active,
+tbody.wa_mysql_data_table>tr>td:nth-child(1):active
+{
+	background:rgba( 255, 0, 0, 0.9 );
+}
+tbody.wa_mysql_field_editor>tr>td:nth-child(3):before,
+tbody.wa_mysql_data_table>tr>td:nth-child(2):before
+{
+	content:"\e065";
+}
+tbody.wa_mysql_table_action>tr>td:nth-child(2):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(3):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(4):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(5):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(6):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(7):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(8):hover,
+tbody.wa_mysql_field_editor>tr>td:nth-child(9):hover,
+tbody.wa_mysql_data_table>tr>td:hover
+{
+	background:rgba( 0, 0, 255, 0.5 );
+}
+tbody.wa_mysql_table_action>tr>td:nth-child(2):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(3):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(4):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(5):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(6):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(7):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(8):active,
+tbody.wa_mysql_field_editor>tr>td:nth-child(9):active,
+tbody.wa_mysql_data_table>tr>td:active
+{
+	background:rgba( 0, 0, 255, 0.9 );
+}
+tbody.wa_mysql_field_editor>tr>td:nth-child(4):before
+{
+	content:"\e138";
+}
+tbody.wa_mysql_field_editor>tr>td:nth-child(5):before
+{
+	content:"\e142";
+}
+tbody.wa_mysql_field_editor>tr>td:nth-child(6):before
+{
+	content:"\e146";
+}
+tbody.wa_mysql_data_table>tr>td.null
+{
+	color:silver;
+}
+tbody.wa_mysql_data_table>tr>td.long
+{
+	text-decoration:underline;
+}
+/*wa_mysql_sql*/
+tbody.wa_mysql_sql>tr>td:first-child
+{
+	background:white;
+	padding:0;
+}
+tbody.wa_mysql_sql>tr>td>textarea:hover,
+tbody.wa_mysql_sql>tr>td>textarea:active,
+tbody.wa_mysql_sql>tr>td>textarea:focus
+{
+	box-shadow:none;
+}
+tbody.wa_mysql_sql>tr>td>textarea,
+tbody.wa_mysql_sql>tr>td>pre
+{
+	padding:4px 8px;
+	font-family:consolas,monaco,monospace;
+	line-height:18px;
+}
+tbody.wa_mysql_sql>tr>td>textarea
+{
+	border:none;
+	overflow:auto;
+	vertical-align:middle;
+}
+/*wa_mysql_editor*/
+table.wa_mysql_editor>thead>tr:first-child>td:first-child
+{
+	font-size:12px;
+	line-height:14px;
+}
+table.wa_mysql_editor>tbody>tr>td
+{
+	vertical-align:middle;
+}
+table.wa_mysql_editor input,
+table.wa_mysql_editor select
+{
+	padding:4px 8px;
+}

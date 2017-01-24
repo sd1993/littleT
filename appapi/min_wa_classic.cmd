@@ -1,0 +1,1 @@
+"%~dp0\nodejs\node" "%~dp0\nodejs\node_modules\clean-css\bin\cleancss" "%~dp0\..\ps\wa_classic.css"  -o "%~dp0\..\ps\wa_classic.min.css"

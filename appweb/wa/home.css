@@ -1,0 +1,67 @@
+table.wa_home_image
+{
+	margin:21px auto;
+	border-collapse:separate;
+	border-spacing:21px;
+}
+table.wa_home_image>tbody>tr>td>div
+{
+	-webkit-perspective: 420;
+	-moz-perspective: 420;
+	-ms-perspective: 420;
+	perspective: 420;
+	cursor:pointer
+}
+table.wa_home_image>tbody>tr>td>div,
+table.wa_home_image>tbody>tr>td>div>div>div
+{
+	width:200px;
+	height:160px;
+}
+table.wa_home_image>tbody>tr>td>div:hover>div
+{
+	transform: rotateY(180deg);
+
+}
+table.wa_home_image>tbody>tr>td>div>div
+{
+	position:relative;
+	transition:0.6s;
+	transform-style:preserve-3d;
+}
+table.wa_home_image>tbody>tr>td>div>div>div
+{
+	position:absolute;
+	left:0;
+	top:0;
+	border-radius:4px;
+	box-shadow:0 0 6px rgba( 0, 0, 0, 0.8 );
+	backface-visibility:hidden;
+}
+table.wa_home_image>tbody>tr>td>div>div>div:active
+{
+	box-shadow:none;
+}
+table.wa_home_image>tbody>tr>td>div>div>div:first-child
+{
+	background-color:black;
+	color:white;
+	transform:rotateY(180deg);
+}
+table.wa_home_image>tbody>tr>td>div>div>div:last-child
+{
+	z-index:1;
+	background-position:center;
+	background-repeat:no-repeat;
+	transform:rotateY(0deg);
+}
+table.wa_home_image>tbody>tr>td>div>div>div>pre
+{
+	padding:8px;
+	line-height:21px;
+}
+
+table.wa_home_image>tfoot>tr>td>div
+{
+	text-align:center;
+}
